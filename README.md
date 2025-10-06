@@ -2,6 +2,7 @@
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*uegcDbhErl0wOcAJRMlXMQ.png)
 ![image](https://miro.medium.com/v2/resize:fit:2000/1*WTp8pqJYXIrR07McVOqcAQ.png)
+![image](https://miro.medium.com/v2/resize:fit:1400/1*kWPVoY9DzSrwdYZ8RlN2ZQ.png)
 
 
 ### Analysis Based on Gross Revenue
