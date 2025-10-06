@@ -1,4 +1,35 @@
 # AtliQ_hardware_sales_finance_report
+### 📝 Problem Statement
+
+- Atliq Hardware is a hardware-based company that sells its products to other businesses across different markets worldwide. The company operates through multiple sales channels, including brick-and-mortar stores, e-commerce platforms, and direct distributors.
+
+- The management team needs data-driven insights to understand customer performance, market trends, and overall sales efficiency. Although data is available for fiscal years 2018–2022, the focus of this analysis is on Fiscal Year 2021.
+
+My role was to analyze the sales, cost, and forecasting data using SQL queries and generate insights that support better decision-making for the business.
+
+### 🔑 Key Terminologies :-
+
+- Customer → Businesses that purchase products from Atliq, such as Amazon, Flipkart, Croma, Vijay Sales, etc.
+
+- Market → Represents the country (e.g., India, Australia, USA) where Atliq sells its products.
+
+- Platform →
+
+  - Brick & Mortar :- Physical retail stores or stalls.
+
+  - E-commerce :- Online platforms such as Amazon, Flipkart, etc.
+
+- Channel →
+
+ - Retailer :- Platforms like Amazon, Flipkart, and Croma.
+
+ - Direct :- Atliq’s own stores, such as Atliq Exclusive or Atliq Store.
+
+ - Distributor :- Well-known hardware specialists in each country who sell Atliq products further.
+
+ - Forecast Accuracy → Measured by comparing the forecasted sales units against the actual sold quantity.
+
+ - Fiscal Year (FY) → Runs from September to October (not January to December).
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*kWPVoY9DzSrwdYZ8RlN2ZQ.png)
 ![image](https://miro.medium.com/v2/resize:fit:2000/1*WTp8pqJYXIrR07McVOqcAQ.png)
