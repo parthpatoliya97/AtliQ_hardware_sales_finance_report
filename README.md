@@ -1,5 +1,7 @@
 # AtliQ_hardware_sales_finance_report
 
+![image](https://miro.medium.com/v2/resize:fit:1400/1*uegcDbhErl0wOcAJRMlXMQ.png)
+
 
 ### Analysis Based on Gross Revenue
 ```sql
