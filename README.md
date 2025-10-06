@@ -1,7 +1,5 @@
 # AtliQ_hardware_sales_finance_report
 
-![image](https://assets.about.me/background/users/a/t/l/atliqtechnologies_1599642179_813.jpg)
-
 ### 📝 Problem Statement
 
 - Atliq Hardware is a hardware-based company that sells its products to other businesses across different markets worldwide. The company operates through multiple sales channels, including brick-and-mortar stores, e-commerce platforms, and direct distributors.
