@@ -10,7 +10,7 @@ group by customer
 order by gross_revenue_millions desc
 limit 5;
 ```
-!(https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/top_5_customer_on_revenue.png?raw=true)
+![image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/top_5_customer_on_revenue.png?raw=true)
 
 ```sql
 select product,round(sum(gross_price_total)/1000000,2) as gross_revenue_millions
