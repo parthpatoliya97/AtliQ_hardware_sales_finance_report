@@ -35,6 +35,7 @@
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*kWPVoY9DzSrwdYZ8RlN2ZQ.png)
 ![image](https://miro.medium.com/v2/resize:fit:2000/1*WTp8pqJYXIrR07McVOqcAQ.png)
 
+---------------------------------------------------------------------------------------------------------------------------------
 ### Views :-
 
 #### 1.) Pre Invoice Discounts
@@ -147,6 +148,7 @@ JOIN fact_gross_price g
     ON s.product_code = g.product_code
    AND s.fiscal_year = g.fiscal_year;
 ```
+-----------------------------------------------------------------------------------------------------------------------------
 
 ### Stored Procedure :-
 #### 1.) Forecast Accuracy Report
@@ -323,7 +325,7 @@ BEGIN
 END
 
 ```
-
+-------------------------------------------------------------------------------------------------------------------------------------------
 ### Functions :-
 #### 1.) Get the Fiscal Year any Date
 ```sql
@@ -365,7 +367,7 @@ BEGIN
 END;
 
 ```
-
+----------------------------------------------------------------------------------------------------------------------------------
 ### Analysis Based on Gross Revenue
 ```sql
 select customer,round(sum(gross_price_total)/1000000,2) as gross_revenue_millions
@@ -491,7 +493,7 @@ limit 10;
 ```
 ![image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/division_on_revenue.png?raw=true)
 
-
+------------------------------------------------------------------------------------------------------------------------------------------
 ### Analysis Based on net sales 
 
 ```sql
@@ -683,7 +685,8 @@ WHERE drnk <= 3;
 ```
 ![image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/market_region_rank.png?raw=true)
 
-### Forecast Accuracy
+-----------------------------------------------------------------------------------------------------------------------------------------
+### Analysis Based on Forecast Accuracy
 ```sql
 select 
 c.region,
