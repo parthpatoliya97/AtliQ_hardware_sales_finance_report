@@ -5,7 +5,7 @@
 
 - The management team needs data-driven insights to understand customer performance, market trends, and overall sales efficiency. Although data is available for fiscal years 2018–2022, the focus of this analysis is on Fiscal Year 2021.
 
-My role was to analyze the sales, cost, and forecasting data using SQL queries and generate insights that support better decision-making for the business.
+- My role was to analyze the sales, cost, and forecasting data using SQL queries and generate insights that support better decision-making for the business.
 
 ### 🔑 Key Terminologies :-
 
@@ -21,11 +21,11 @@ My role was to analyze the sales, cost, and forecasting data using SQL queries a
 
 - Channel →
 
- - Retailer :- Platforms like Amazon, Flipkart, and Croma.
+   - Retailer :- Platforms like Amazon, Flipkart, and Croma.
 
- - Direct :- Atliq’s own stores, such as Atliq Exclusive or Atliq Store.
+   - Direct :- Atliq’s own stores, such as Atliq Exclusive or Atliq Store.
 
- - Distributor :- Well-known hardware specialists in each country who sell Atliq products further.
+   - Distributor :- Well-known hardware specialists in each country who sell Atliq products further.
 
  - Forecast Accuracy → Measured by comparing the forecasted sales units against the actual sold quantity.
 
