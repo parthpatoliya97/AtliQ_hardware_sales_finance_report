@@ -10,6 +10,7 @@ group by customer
 order by gross_revenue_millions desc
 limit 5;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/top_5_customer_on_revenue.png?raw=true)
 
 ```sql
 select product,round(sum(gross_price_total)/1000000,2) as gross_revenue_millions
@@ -19,6 +20,7 @@ group by product
 order by gross_revenue_millions desc
 limit 10;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/top_product_on_revenue.png?raw=true)
 
 ```sql
 select variant,round(sum(gross_price_total)/1000000,2) as gross_revenue_millions
@@ -28,6 +30,7 @@ group by variant
 order by gross_revenue_millions desc
 limit 10;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/top_variant_on_revenue.png?raw=true)
 
 ```sql
 select market,round(sum(gross_price_total)/1000000,2) as gross_revenue_millions
@@ -37,6 +40,7 @@ group by market
 order by gross_revenue_millions desc
 limit 10;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/top_market_on_revenue.png?raw=true)
 
 ```sql
 select c.channel,round(sum(gs.gross_price_total)/1000000,2) as gross_revenue_millions
@@ -48,6 +52,7 @@ group by c.channel
 order by gross_revenue_millions desc
 limit 10;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/channel_on_revenue.png?raw=true)
 
 ```sql
 select c.platform,round(sum(gs.gross_price_total)/1000000,2) as gross_revenue_millions
@@ -59,6 +64,7 @@ group by c.platform
 order by gross_revenue_millions desc
 limit 10;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/platform_on_revenue.png?raw=true)
 
 ```sql
 select c.region,round(sum(gs.gross_price_total)/1000000,2) as gross_revenue_millions
@@ -70,6 +76,7 @@ group by c.region
 order by gross_revenue_millions desc
 limit 10;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/region_on_revenue.png?raw=true)
 
 ```sql
 select c.sub_zone,round(sum(gs.gross_price_total)/1000000,2) as gross_revenue_millions
@@ -81,6 +88,7 @@ group by c.sub_zone
 order by gross_revenue_millions desc
 limit 10;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/subzone_on_revenue.png?raw=true)
 
 ```sql
 select p.category,round(sum(gs.gross_price_total)/1000000,2) as gross_revenue_millions
@@ -91,8 +99,8 @@ where gs.fiscal_year=2021
 group by p.category
 order by gross_revenue_millions desc
 limit 10;
-
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/category_on_revenue.png?raw=true)
 
 ```sql
 select p.segment,round(sum(gs.gross_price_total)/1000000,2) as gross_revenue_millions
@@ -104,6 +112,7 @@ group by p.segment
 order by gross_revenue_millions desc
 limit 10;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/segment_on_revenue.png?raw=true)
 
 ```sql
 select p.division,round(sum(gs.gross_price_total)/1000000,2) as gross_revenue_millions
@@ -115,6 +124,7 @@ group by p.division
 order by gross_revenue_millions desc
 limit 10;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/division_on_revenue.png?raw=true)
 
 
 ### Analysis Based on net sales 
@@ -129,6 +139,7 @@ group by market
 order by net_sales_millions desc
 limit 10
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/market_on_net_sales.png?raw=true)
 
 ```sql
 select 
@@ -142,6 +153,7 @@ group by c.customer
 order by net_sales_millions desc
 limit 5
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/customer_on_net_sales.png?raw=true)
 
 ```sql
 select product,round(sum(net_sales)/1000000,2) net_sales_millions
@@ -151,6 +163,7 @@ group by product
 order by net_sales_millions desc
 limit 10;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/product_on_net_sales.png?raw=true)
 
 ```sql
 select p.category,round(sum(s.net_sales)/1000000,2) net_sales_millions
@@ -162,6 +175,7 @@ group by p.category
 order by net_sales_millions desc
 limit 10;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/category_on_net_sales.png?raw=true)
 
 ```sql
 
@@ -173,8 +187,8 @@ where s.fiscal_year=2021
 group by p.segment
 order by net_sales_millions desc
 limit 10;
-
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/segment_on_net_sales.png?raw=true)
 
 ```sql
 select p.division,round(sum(s.net_sales)/1000000,2) net_sales_millions
@@ -186,6 +200,7 @@ group by p.division
 order by net_sales_millions desc
 limit 10;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/division_on_net_sales.png?raw=true)
 
 ```sql
 select c.channel,round(sum(s.net_sales)/1000000,2) net_sales_millions
@@ -197,6 +212,8 @@ group by c.channel
 order by net_sales_millions desc
 limit 10;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/channel_on_net_sales.png?raw=true)
+
 ```sql
 select c.platform,round(sum(s.net_sales)/1000000,2) net_sales_millions
 from net_sales s 
@@ -207,6 +224,7 @@ group by c.platform
 order by net_sales_millions desc
 limit 10;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/platform_on_net_sales.png?raw=true)
 
 ```sql
 select c.region,round(sum(s.net_sales)/1000000,2) net_sales_millions
@@ -218,6 +236,7 @@ group by c.region
 order by net_sales_millions desc
 limit 10;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/region_on_net_sales.png?raw=true)
 
 ```sql
 select c.sub_zone,round(sum(s.net_sales)/1000000,2) net_sales_millions
@@ -229,6 +248,7 @@ group by c.sub_zone
 order by net_sales_millions desc
 limit 10;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/sub_zone_net_sales.png?raw=true)
 
 ```sql
 with cte as(
@@ -246,6 +266,7 @@ from cte
 order by market_share_pct desc 
 limit 10;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/customer_market_share_pct.png?raw=true)
 
 ```sql
 WITH cte1 AS (
@@ -269,6 +290,7 @@ SELECT *
 FROM cte2 
 WHERE drnk <= 3;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/divison_product_rank.png?raw=true)
 
 ```sql
 WITH cte1 AS (
@@ -294,6 +316,7 @@ SELECT *
 FROM cte2 
 WHERE drnk <= 3;
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/market_region_rank.png?raw=true)
 
 ### Forecast Accuracy
 ```sql
@@ -308,6 +331,7 @@ on f.customer_code=c.customer_code
 group by c.region
 order by forecast_accuracy_average desc
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/region_forecast_accuracy.png?raw=true)
 
 ```sql
 select 
@@ -321,6 +345,7 @@ on f.customer_code=c.customer_code
 group by c.sub_zone
 order by forecast_accuracy_average desc
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/sub_zone_forecast_accuracy.png?raw=true)
 
 ```sql
 select 
@@ -334,6 +359,7 @@ on f.customer_code=c.customer_code
 group by channel
 order by forecast_accuracy_average desc
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/channel_forecast_accuracy.png?raw=true)
 
 ```sql
 select 
@@ -347,5 +373,6 @@ on f.customer_code=c.customer_code
 group by c.market
 order by forecast_accuracy_average desc
 ```
+[image](https://github.com/parthpatoliya97/AtliQ_hardware_sales_finance_report/blob/main/images/market_forecast_accuracy.png?raw=true)
 
 
