@@ -1,6 +1,6 @@
 # AtliQ_hardware_sales_finance_report
 
-### 📝 Problem Statement
+## Problem Statement :-
 
 - Atliq Hardware is a hardware-based company that sells its products to other businesses across different markets worldwide. The company operates through multiple sales channels, including brick-and-mortar stores, e-commerce platforms, and direct distributors.
 
@@ -8,7 +8,7 @@
 
 - My role was to analyze the sales, cost, and forecasting data using SQL queries and generate insights that support better decision-making for the business.
 
-### Key Terminologies :-
+## Key Terminologies :-
 
 - Customer → Businesses that purchase products from Atliq, such as Amazon, Flipkart, Croma, Vijay Sales, etc.
 
@@ -32,7 +32,7 @@
 
  - Fiscal Year (FY) → Runs from September to October (not January to December).
 
-### Key Financial & Sales Terms – Atliq Hardware :-
+## Key Financial & Sales Terms – Atliq Hardware :-
 
 This section explains the key financial and sales terminology used in our analysis. Each term is simplified with examples and formulas where applicable.
 
@@ -54,7 +54,7 @@ This section explains the key financial and sales terminology used in our analys
 ---
 
 
-### Atliq Hardware – Key Insights (Fiscal Year 2021)
+## Atliq Hardware – Key Insights (Fiscal Year 2021) :-
 #### 1. Revenue Analysis :-
 
   - Top Customers :-  Amazon is the highest revenue generator, followed by Atliq-exclusive and Atliq-e-store.
