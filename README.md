@@ -35,6 +35,99 @@
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*kWPVoY9DzSrwdYZ8RlN2ZQ.png)
 ![image](https://miro.medium.com/v2/resize:fit:2000/1*WTp8pqJYXIrR07McVOqcAQ.png)
 
+
+### Atliq Hardware – Key Insights (Fiscal Year 2021)
+#### 1. Revenue Analysis :-
+
+  Top Customers: Amazon is the highest revenue generator, followed by Atliq-exclusive and Atliq-e-store.
+  
+  Product Variants: The Standard variant leads in revenue, followed by Premium and Plus.
+  
+  Markets: India is the largest revenue contributor, followed by USA and South Korea.
+  
+  Channels: Retailer channel outperforms Direct and Distributor channels.
+  
+  Platforms: Brick & Mortar generates higher revenue than E-commerce.
+  
+  Regions: APAC region contributes the highest revenue.
+  
+  Subzones: Within markets, India dominates revenue contribution.
+  
+  Categories: Keyboards, personal and business laptops, mice, and processors are top revenue-generating categories.
+  
+  Segments: Notebooks and accessories/peripherals outperform networking and desktop segments.
+  
+  Product Divisions: P&A (Peripherals & Accessories) and PCs lead in revenue.
+
+#### 2. Net Sales Analysis :-
+
+  Markets: India tops net sales, followed by USA and South Korea.
+  
+  Customers: Amazon leads, followed by Atliq-exclusive and Atliq-e-store.
+  
+  Categories & Segments: Keyboards, personal and business laptops, mice, and processors, as well as notebooks, accessories, and peripherals, contribute the most to net sales.
+  
+  Product Divisions: P&A and PCs maintain top net sales positions.
+  
+  Channels: Retailer channel dominates, with Direct and Distributor contributing less.
+  
+  Platforms: Brick & Mortar generates higher sales than E-commerce.
+  
+  Regions & Subzones: APAC region and India subzone are major net sales contributors.
+
+#### 3. Forecast Accuracy Analysis :-
+
+  Channels: Retailer channel shows the highest forecast accuracy.
+  
+  Subzones: SE India and ANZ report strong forecast accuracy.
+  
+  Regions: LATAM tops forecast accuracy, with APAC ranking third.
+
+#### 4. Key Suggestions for Sales Growth (Next Year) :-
+
+### 1.) Customer Strategy :-
+
+  Strengthen partnerships with Amazon and top e-commerce platforms.
+  
+  Expand Atliq-exclusive and e-store presence to increase direct consumer reach.
+
+### 2.) Product & Category Focus :-
+
+  Prioritize production and promotion of high-revenue categories: keyboards, laptops, mice, and processors.
+  
+  Introduce enhanced variants (Standard/Premium/Plus) with targeted marketing campaigns.
+
+### 3.) Market Expansion :-
+
+  Leverage India, USA, and South Korea as key markets for new launches.
+  
+  Explore underperforming regions with potential, e.g., Europe or LATAM, using forecast accuracy data for planning.
+
+### 4.) Channel Optimization :-
+
+  Continue to strengthen Retailer channels while incentivizing Direct stores to improve sales.
+  
+  Provide training and support to distributors to expand reach in tier-2/3 cities.
+
+### 5.) Platform Strategy :-
+
+  Maintain Brick & Mortar dominance but scale E-commerce marketing for untapped customer segments.
+  
+  Invest in online visibility, promotions, and fast delivery to capture the growing digital market.
+
+### 6.) Forecasting & Inventory Management :-
+
+Focus on regions and channels with high forecast accuracy (SE India, ANZ, LATAM).
+
+Optimize inventory and supply chain in low-accuracy regions to reduce stockouts or excess.
+
+### 7.) Segment & Division Priorities :-
+
+Invest in Notebooks, Accessories & Peripherals, and PC divisions for high ROI.
+
+Evaluate underperforming segments (Networking, Desktop) for improvement or product redesign.
+
+
 ---------------------------------------------------------------------------------------------------------------------------------
 ### Views :-
 
