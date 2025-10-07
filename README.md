@@ -7,6 +7,7 @@
 - The management team needs data-driven insights to understand customer performance, market trends, and overall sales efficiency. Although data is available for fiscal years 2018–2022, the focus of this analysis is on Fiscal Year 2021.
 
 - My role was to analyze the sales, cost, and forecasting data using SQL queries and generate insights that support better decision-making for the business.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Key Terminologies :-
 
@@ -27,6 +28,7 @@
    - Direct :- Atliq’s own stores, such as Atliq Exclusive or Atliq Store.
 
    - Distributor :- Well-known hardware specialists in each country who sell Atliq products further.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Key Financial & Sales Terms – Atliq Hardware :-
 
@@ -34,6 +36,8 @@
 |----------|------------|
 | **Gross Revenue / Gross Sales** | Total revenue generated from selling products **before any deductions** like discounts or costs. |
 | **Net Revenue / Net Sales** | Revenue left after subtracting **all discounts and deductions**. Shows actual money earned by Atliq. |
+| **Pre-Invoice Deduction** | Discounts applied **before the invoice** is generated, usually negotiated or promotional discounts. |
+| **Post-Invoice Deduction** | Discounts or deductions applied **after the invoice** is generated, such as rebates, allowances, or other adjustments. |
 | **Forecast Quantity** | The number of units the company **expects to sell** in a certain period. |
 | **Sold Quantity** | The actual number of units sold in a given period. |
 | **Forecast Accuracy** | How close the forecast quantity is to the actual sold quantity. Higher % = better planning. |
@@ -44,12 +48,11 @@
 | **Gross Margin** | Profit left after subtracting **direct costs** (manufacturing + freight) from gross revenue. |
 | **Fiscal Year** | The company’s accounting year. For Atliq: **Sep → Aug**. |
 | **Quarter** | A three-month period in the fiscal year for reporting purposes. |
-
----
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ## Atliq Hardware – Key Insights (Fiscal Year 2021) :-
-#### 1. Revenue Analysis :-
+### 1. Revenue Analysis :-
 
   - Top Customers :-  Amazon is the highest revenue generator, followed by Atliq-exclusive and Atliq-e-store.
   
@@ -71,7 +74,7 @@
   
   - Product Divisions :- P&A (Peripherals & Accessories) and PCs lead in revenue.
 
-#### 2. Net Sales Analysis :-
+### 2. Net Sales Analysis :-
 
   - Markets :- India tops net sales, followed by USA and South Korea.
   
@@ -87,7 +90,7 @@
   
   - Regions & Subzones :- APAC region and India subzone are major net sales contributors.
 
-#### 3. Forecast Accuracy Analysis :-
+### 3. Forecast Accuracy Analysis :-
 
   - Channels :- Retailer channel shows the highest forecast accuracy.
   
@@ -95,45 +98,45 @@
   
   - Regions :- LATAM tops forecast accuracy, with APAC ranking third.
 
-#### 4. Key Suggestions for Sales Growth (Next Year) :-
+### 4. Key Suggestions for Sales Growth (Next Year) :-
 
-### 1.) Customer Strategy :-
+#### 1.) Customer Strategy :-
 
   - Strengthen partnerships with Amazon and top e-commerce platforms.
   
   - Expand Atliq-exclusive and e-store presence to increase direct consumer reach.
 
-### 2.) Product & Category Focus :-
+#### 2.) Product & Category Focus :-
 
   - Prioritize production and promotion of high-revenue categories: keyboards, laptops, mice, and processors.
   
   - Introduce enhanced variants (Standard/Premium/Plus) with targeted marketing campaigns.
 
-### 3.) Market Expansion :-
+#### 3.) Market Expansion :-
 
   - Leverage India, USA, and South Korea as key markets for new launches.
   
   - Explore underperforming regions with potential, e.g., Europe or LATAM, using forecast accuracy data for planning.
 
-### 4.) Channel Optimization :-
+#### 4.) Channel Optimization :-
 
   - Continue to strengthen Retailer channels while incentivizing Direct stores to improve sales.
   
   - Provide training and support to distributors to expand reach in tier-2/3 cities.
 
-### 5.) Platform Strategy :-
+#### 5.) Platform Strategy :-
 
   - Maintain Brick & Mortar dominance but scale E-commerce marketing for untapped customer segments.
   
   - Invest in online visibility, promotions, and fast delivery to capture the growing digital market.
 
-### 6.) Forecasting & Inventory Management :-
+#### 6.) Forecasting & Inventory Management :-
 
   - Focus on regions and channels with high forecast accuracy (SE India, ANZ, LATAM).
   
   - Optimize inventory and supply chain in low-accuracy regions to reduce stockouts or excess.
 
-### 7.) Segment & Division Priorities :-
+#### 7.) Segment & Division Priorities :-
 
   - Invest in Notebooks, Accessories & Peripherals, and PC divisions for high ROI.
   
