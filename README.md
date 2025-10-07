@@ -32,6 +32,30 @@
 
  - Fiscal Year (FY) → Runs from September to October (not January to December).
 
+## 📊 Key Financial & Sales Terms – Atliq Hardware
+
+This section explains the key financial and sales terminology used in our analysis. Each term is simplified with examples and formulas where applicable.
+
+| **Term** | **Meaning** | **Formula / Example** |
+|----------|------------|---------------------|
+| **Gross Revenue / Gross Sales** | Total revenue generated from selling products **before any deductions** like discounts or costs. | *Example:* Sold 100 keyboards at $50 each → `Gross Revenue = 100 × 50 = $5000` |
+| **Net Revenue / Net Sales** | Revenue left after subtracting **all discounts and deductions**. Shows actual money earned by Atliq. | *Example:* Gross Revenue = $5000, Discounts = $500 → `Net Sales = 5000 − 500 = 4500` |
+| **Forecast Quantity** | The number of units the company **expects to sell** in a certain period. | *Example:* Forecast to sell 1000 laptops in Q1 → `Forecast Quantity = 1000` |
+| **Sold Quantity** | The actual number of units sold in a given period. | *Example:* Sold 950 laptops in Q1 → `Sold Quantity = 950` |
+| **Forecast Accuracy** | How close the forecast quantity is to the actual sold quantity. Higher % = better planning. | `Forecast Accuracy (%) = 100 - Absolute Error (%)`<br>*Example:* Forecast = 1000, Sold = 950 → Accuracy ≈ 95% |
+| **Net Error** | Difference between forecasted and sold quantity; shows if forecast **overestimated or underestimated** sales. | `Net Error = Forecast Quantity - Sold Quantity`<br>*Example:* 1000 − 950 = 50 units |
+| **Absolute Error** | Difference between forecasted and sold quantity **ignoring direction**. Measures total forecasting error. | `Absolute Error = |Forecast Quantity - Sold Quantity|`<br>*Example:* 1000 − 950 = 50 units |
+| **Freight Cost** | Cost to transport products from factory to warehouses, stores, or customers. | *Example:* Shipping 1000 units costs $2000 → Freight Cost = $2000 |
+| **Manufacturing Cost** | Cost to produce each product, including raw materials, labor, and overhead. | *Example:* Manufacturing cost per unit = $20, 100 units → Total = $2000 |
+| **Gross Margin** | Profit left after subtracting **direct costs** (manufacturing + freight) from gross revenue. | `Gross Margin = Gross Revenue - (Manufacturing Cost + Freight Cost)`<br>*Example:* 5000 − 3000 = 2000 |
+| **Fiscal Year** | The company’s accounting year. For Atliq: **Sep → Aug**. | *Example:* FY 2021 = Sep 2020 to Aug 2021 |
+| **Quarter** | A three-month period in the fiscal year for reporting purposes. | Q1 = Sep–Nov, Q2 = Dec–Feb, Q3 = Mar–May, Q4 = Jun–Aug |
+
+---
+
+✅ This table can be included in your README.md under a **"Glossary" or "Key Terms"** section to make your project understandable to anyone, even without prior financial knowledge.
+
+
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*kWPVoY9DzSrwdYZ8RlN2ZQ.png)
 ![image](https://miro.medium.com/v2/resize:fit:2000/1*WTp8pqJYXIrR07McVOqcAQ.png)
 
