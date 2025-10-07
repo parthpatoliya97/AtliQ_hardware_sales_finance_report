@@ -28,10 +28,6 @@
 
    - Distributor :- Well-known hardware specialists in each country who sell Atliq products further.
 
- - Forecast Accuracy → Measured by comparing the forecasted sales units against the actual sold quantity.
-
- - Fiscal Year (FY) → Runs from September to October (not January to December).
-
 ## Key Financial & Sales Terms – Atliq Hardware :-
 
 This section explains the key financial and sales terminology used in our analysis. Each term is simplified with examples and formulas where applicable.
