@@ -8,7 +8,7 @@
 
 - My role was to analyze the sales, cost, and forecasting data using SQL queries and generate insights that support better decision-making for the business.
 
-### 🔑 Key Terminologies :-
+### Key Terminologies :-
 
 - Customer → Businesses that purchase products from Atliq, such as Amazon, Flipkart, Croma, Vijay Sales, etc.
 
@@ -32,7 +32,7 @@
 
  - Fiscal Year (FY) → Runs from September to October (not January to December).
 
-## 📊 Key Financial & Sales Terms – Atliq Hardware
+### Key Financial & Sales Terms – Atliq Hardware :-
 
 This section explains the key financial and sales terminology used in our analysis. Each term is simplified with examples and formulas where applicable.
 
@@ -44,7 +44,7 @@ This section explains the key financial and sales terminology used in our analys
 | **Sold Quantity** | The actual number of units sold in a given period. | *Example:* Sold 950 laptops in Q1 → `Sold Quantity = 950` |
 | **Forecast Accuracy** | How close the forecast quantity is to the actual sold quantity. Higher % = better planning. | `Forecast Accuracy (%) = 100 - Absolute Error (%)`<br>*Example:* Forecast = 1000, Sold = 950 → Accuracy ≈ 95% |
 | **Net Error** | Difference between forecasted and sold quantity; shows if forecast **overestimated or underestimated** sales. | `Net Error = Forecast Quantity - Sold Quantity`<br>*Example:* 1000 − 950 = 50 units |
-| **Absolute Error** | Difference between forecasted and sold quantity **ignoring direction**. Measures total forecasting error. | `Absolute Error = |Forecast Quantity - Sold Quantity|`<br>*Example:* 1000 − 950 = 50 units |
+| **Absolute Error** | Difference between forecasted and sold quantity **ignoring direction**. Measures total forecasting error. | `Absolute Error = abs(Forecast Quantity - Sold Quantity)`<br>*Example:* 1000 − 950 = 50 units |
 | **Freight Cost** | Cost to transport products from factory to warehouses, stores, or customers. | *Example:* Shipping 1000 units costs $2000 → Freight Cost = $2000 |
 | **Manufacturing Cost** | Cost to produce each product, including raw materials, labor, and overhead. | *Example:* Manufacturing cost per unit = $20, 100 units → Total = $2000 |
 | **Gross Margin** | Profit left after subtracting **direct costs** (manufacturing + freight) from gross revenue. | `Gross Margin = Gross Revenue - (Manufacturing Cost + Freight Cost)`<br>*Example:* 5000 − 3000 = 2000 |
@@ -53,103 +53,97 @@ This section explains the key financial and sales terminology used in our analys
 
 ---
 
-✅ This table can be included in your README.md under a **"Glossary" or "Key Terms"** section to make your project understandable to anyone, even without prior financial knowledge.
-
-
-![image](https://miro.medium.com/v2/resize:fit:1400/1*kWPVoY9DzSrwdYZ8RlN2ZQ.png)
-![image](https://miro.medium.com/v2/resize:fit:2000/1*WTp8pqJYXIrR07McVOqcAQ.png)
-
 
 ### Atliq Hardware – Key Insights (Fiscal Year 2021)
 #### 1. Revenue Analysis :-
 
-  Top Customers: Amazon is the highest revenue generator, followed by Atliq-exclusive and Atliq-e-store.
+  - Top Customers :-  Amazon is the highest revenue generator, followed by Atliq-exclusive and Atliq-e-store.
   
-  Product Variants: The Standard variant leads in revenue, followed by Premium and Plus.
+  - Product Variants :- The Standard variant leads in revenue, followed by Premium and Plus.
   
-  Markets: India is the largest revenue contributor, followed by USA and South Korea.
+  - Markets :- India is the largest revenue contributor, followed by USA and South Korea.
   
-  Channels: Retailer channel outperforms Direct and Distributor channels.
+  - Channels :- Retailer channel outperforms Direct and Distributor channels.
   
-  Platforms: Brick & Mortar generates higher revenue than E-commerce.
+  - Platforms:- Brick & Mortar generates higher revenue than E-commerce.
   
-  Regions: APAC region contributes the highest revenue.
+  - Regions :- APAC region contributes the highest revenue.
   
-  Subzones: Within markets, India dominates revenue contribution.
+  - Subzones :- Within markets, India dominates revenue contribution.
   
-  Categories: Keyboards, personal and business laptops, mice, and processors are top revenue-generating categories.
+  - Categories :- Keyboards, personal and business laptops, mice, and processors are top revenue-generating categories.
   
-  Segments: Notebooks and accessories/peripherals outperform networking and desktop segments.
+  - Segments :- Notebooks and accessories/peripherals outperform networking and desktop segments.
   
-  Product Divisions: P&A (Peripherals & Accessories) and PCs lead in revenue.
+  - Product Divisions :- P&A (Peripherals & Accessories) and PCs lead in revenue.
 
 #### 2. Net Sales Analysis :-
 
-  Markets: India tops net sales, followed by USA and South Korea.
+  - Markets :- India tops net sales, followed by USA and South Korea.
   
-  Customers: Amazon leads, followed by Atliq-exclusive and Atliq-e-store.
+  - Customers :- Amazon leads, followed by Atliq-exclusive and Atliq-e-store.
   
-  Categories & Segments: Keyboards, personal and business laptops, mice, and processors, as well as notebooks, accessories, and peripherals, contribute the most to net sales.
+  - Categories & Segments :- Keyboards, personal and business laptops, mice, and processors, as well as notebooks, accessories, and peripherals, contribute the most to net sales.
   
-  Product Divisions: P&A and PCs maintain top net sales positions.
+  - Product Divisions :- P&A and PCs maintain top net sales positions.
   
-  Channels: Retailer channel dominates, with Direct and Distributor contributing less.
+  - Channels :- Retailer channel dominates, with Direct and Distributor contributing less.
   
-  Platforms: Brick & Mortar generates higher sales than E-commerce.
+  - Platforms :- Brick & Mortar generates higher sales than E-commerce.
   
-  Regions & Subzones: APAC region and India subzone are major net sales contributors.
+  - Regions & Subzones :- APAC region and India subzone are major net sales contributors.
 
 #### 3. Forecast Accuracy Analysis :-
 
-  Channels: Retailer channel shows the highest forecast accuracy.
+  - Channels :- Retailer channel shows the highest forecast accuracy.
   
-  Subzones: SE India and ANZ report strong forecast accuracy.
+  - Subzones :- SE India and ANZ report strong forecast accuracy.
   
-  Regions: LATAM tops forecast accuracy, with APAC ranking third.
+  - Regions :- LATAM tops forecast accuracy, with APAC ranking third.
 
 #### 4. Key Suggestions for Sales Growth (Next Year) :-
 
 ### 1.) Customer Strategy :-
 
-  Strengthen partnerships with Amazon and top e-commerce platforms.
+  - Strengthen partnerships with Amazon and top e-commerce platforms.
   
-  Expand Atliq-exclusive and e-store presence to increase direct consumer reach.
+  - Expand Atliq-exclusive and e-store presence to increase direct consumer reach.
 
 ### 2.) Product & Category Focus :-
 
-  Prioritize production and promotion of high-revenue categories: keyboards, laptops, mice, and processors.
+  - Prioritize production and promotion of high-revenue categories: keyboards, laptops, mice, and processors.
   
-  Introduce enhanced variants (Standard/Premium/Plus) with targeted marketing campaigns.
+  - Introduce enhanced variants (Standard/Premium/Plus) with targeted marketing campaigns.
 
 ### 3.) Market Expansion :-
 
-  Leverage India, USA, and South Korea as key markets for new launches.
+  - Leverage India, USA, and South Korea as key markets for new launches.
   
-  Explore underperforming regions with potential, e.g., Europe or LATAM, using forecast accuracy data for planning.
+  - Explore underperforming regions with potential, e.g., Europe or LATAM, using forecast accuracy data for planning.
 
 ### 4.) Channel Optimization :-
 
-  Continue to strengthen Retailer channels while incentivizing Direct stores to improve sales.
+  - Continue to strengthen Retailer channels while incentivizing Direct stores to improve sales.
   
-  Provide training and support to distributors to expand reach in tier-2/3 cities.
+  - Provide training and support to distributors to expand reach in tier-2/3 cities.
 
 ### 5.) Platform Strategy :-
 
-  Maintain Brick & Mortar dominance but scale E-commerce marketing for untapped customer segments.
+  - Maintain Brick & Mortar dominance but scale E-commerce marketing for untapped customer segments.
   
-  Invest in online visibility, promotions, and fast delivery to capture the growing digital market.
+  - Invest in online visibility, promotions, and fast delivery to capture the growing digital market.
 
 ### 6.) Forecasting & Inventory Management :-
 
-Focus on regions and channels with high forecast accuracy (SE India, ANZ, LATAM).
-
-Optimize inventory and supply chain in low-accuracy regions to reduce stockouts or excess.
+  - Focus on regions and channels with high forecast accuracy (SE India, ANZ, LATAM).
+  
+  - Optimize inventory and supply chain in low-accuracy regions to reduce stockouts or excess.
 
 ### 7.) Segment & Division Priorities :-
 
-Invest in Notebooks, Accessories & Peripherals, and PC divisions for high ROI.
-
-Evaluate underperforming segments (Networking, Desktop) for improvement or product redesign.
+  - Invest in Notebooks, Accessories & Peripherals, and PC divisions for high ROI.
+  
+  - Evaluate underperforming segments (Networking, Desktop) for improvement or product redesign.
 
 
 ---------------------------------------------------------------------------------------------------------------------------------
